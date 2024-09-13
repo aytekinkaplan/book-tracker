@@ -1,5 +1,3 @@
-### Project README for "Book Tracker" (Express.js + Handlebars)
-
 ---
 
 # Book Tracker
@@ -7,7 +5,6 @@
 Book Tracker is a simple CRUD (Create, Read, Update, Delete) web application that allows users to track books they are reading or planning to read. Built using **Node.js**, **Express**, **Handlebars**, and **MongoDB**, it enables users to add, delete, and view a list of books.
 
 ## Features
-
 - Add a book with a title and author.
 - View all added books.
 - Delete a book from the list.
@@ -28,6 +25,7 @@ book-tracker/
 │   └── index.hbs      # Template for displaying the book list
 ├── app.js             # Main application entry point
 ├── package.json       # Project metadata and dependencies
+├── screen.png         # Screenshot of the application
 └── README.md          # Project documentation
 ```
 
@@ -54,43 +52,47 @@ graph TD
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/aytekinkaplan/book-tracker.git
-   cd book-tracker
-   ```
+    ```bash
+    git clone https://github.com/your-username/book-tracker.git
+    cd book-tracker
+    ```
 
 2. Install dependencies:
 
-   ```bash
-   npm install
-   ```
+    ```bash
+    npm install
+    ```
 
 3. Start MongoDB:
 
-   Make sure MongoDB is running on your system. If you haven't installed it, follow the [MongoDB installation guide](https://docs.mongodb.com/manual/installation/).
+    Make sure MongoDB is running on your system. If you haven't installed it, follow the [MongoDB installation guide](https://docs.mongodb.com/manual/installation/).
 
 4. Start the server:
 
-   ```bash
-   node app.js
-   ```
+    ```bash
+    node app.js
+    ```
 
 5. Visit the application:
 
-   Open your browser and go to `http://localhost:5000/books` to view the app.
+    Open your browser and go to `http://localhost:5000/books` to view the app.
 
 ## Usage
 
 1. **Adding a Book:**
-
    - On the main page, enter the book title and author's name in the form and click "Add Book."
 
 2. **Viewing Books:**
-
    - All added books will be listed below the form.
 
 3. **Deleting a Book:**
    - To remove a book, click the "Delete" button next to the book.
+
+## Screenshot
+
+Here is a screenshot of the Book Tracker in action:
+
+![Book Tracker Screenshot](./screen.png)
 
 ## Technologies Used
 
