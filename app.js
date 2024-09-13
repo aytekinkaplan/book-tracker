@@ -14,10 +14,7 @@ app.set("view engine", "hbs");
 
 // MongoDB bağlantısı
 mongoose
-  .connect("mongodb://localhost/booktracker", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+  .connect("mongodb://localhost/booktracker")
   .then(() => console.log("MongoDB Connected"))
   .catch((err) => console.log(err));
 
